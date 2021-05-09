@@ -33,9 +33,13 @@ console.log(num)
 // 나머지 연산자도 같은 방법으로 사용
 
 /* 증가 연산자, 감소 연산자 */
+
 let num = 10;
-let result = num++;
+let result = num++; // 10
+
+let result = ++num; // 11
 
 console.log(result);
 
+/* */
 
